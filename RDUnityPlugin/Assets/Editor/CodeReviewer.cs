@@ -1,5 +1,5 @@
+#if UNITY_EDITOR
 using UnityEngine;
-
 using UnityEditor;
 using UnityEditor.Compilation;
 using System;
@@ -44,3 +44,4 @@ public class CodeReviewer
         }
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -184,3 +185,4 @@ public class BuildMod : EditorWindow
         Process.Start(Path.Combine(gamePath, Path.GetFileName(gamePath) + ".exe"));
     }
 }
+#endif
